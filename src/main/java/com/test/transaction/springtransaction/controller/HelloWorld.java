@@ -11,4 +11,10 @@ public class HelloWorld {
     return "Hello Docker Container";
 
   }
+  
+  @GetMapping("/rest/docker")
+  public String test(){
+    return "Hello Docker Container";
+
+  }
 }
