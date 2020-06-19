@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-transaction
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spring-transaction
+  template:
+    metadata:
+      labels:
+        app: spring-transaction
+    spec:
+      containers:
+        -name: spring-transaction
+         image: localhost:5000/spring-transaction
+         imagePullPolicy: Always
+         ports:
+           -containerPort: 8080
+
+
+
+
+
