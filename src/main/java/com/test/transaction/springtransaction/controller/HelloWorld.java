@@ -18,6 +18,7 @@ public class HelloWorld {
   @PostMapping("/rest/docker/message")
   public String sendMessage(){
   System.out.println("sendmessage")
+    System.out.println("sendmessage")
     return "Hello Docker Container";
 
   }
