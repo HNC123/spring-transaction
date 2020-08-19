@@ -11,7 +11,6 @@ public class HelloWorld {
   public String getMessage(){
   System.out.println("getmessage")
     System.out.println("docker getmessage");
-
     return "Hello Docker Container";
 
   }
