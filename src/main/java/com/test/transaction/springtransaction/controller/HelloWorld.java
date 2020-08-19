@@ -18,6 +18,7 @@ public class HelloWorld {
   public String sendMessage(){
     System.out.print("hello");
     System.out.print("hi hello");
+System.out.print("hellooooooo");
 System.out.print("hi");
     return "Hello Docker Container";
 
