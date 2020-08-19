@@ -24,6 +24,7 @@ public class HelloWorld {
 
   @GetMapping("/rest/docker")
   public String test(){
+System.out.println("sendmessage")
   System.out.println("testing using git gui")
     return "Hello Docker Container";
   }
