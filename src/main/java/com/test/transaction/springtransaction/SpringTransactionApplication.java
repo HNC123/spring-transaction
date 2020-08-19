@@ -10,6 +10,7 @@ public class SpringTransactionApplication {
   System.out.println("main program");
     System.out.println("spring boot");
     SpringApplication.run(SpringTransactionApplication.class, args);
-  }
+ 
+ }
 
 }
