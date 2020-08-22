@@ -9,17 +9,12 @@ public class HelloWorld {
 
   @GetMapping("/rest/docker/hello")
   public String getMessage(){
-    System.out.print("get messqge1");
-System.out.print("get messqge2");
-System.out.print("get messqge");
     return "Hello Docker Container";
 
   }
 
   @PostMapping("/rest/docker/message")
   public String sendMessage(){
-    System.out.print("hello");
-System.out.print("Hi");
         return "Hello Docker Container";
   }
 
