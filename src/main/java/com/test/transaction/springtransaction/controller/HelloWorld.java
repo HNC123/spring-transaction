@@ -16,6 +16,7 @@ System.out.print("get messqge");
 
   @PostMapping("/rest/docker/message")
   public String sendMessage(){
+    System.out.print("sendmessage1");
     System.out.print("sendmessage");
        return "Hello Docker Container";
   }
