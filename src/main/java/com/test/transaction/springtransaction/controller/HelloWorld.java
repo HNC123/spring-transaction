@@ -9,6 +9,7 @@ public class HelloWorld {
 
   @GetMapping("/rest/docker/hello")
   public String getMessage(){
+    System.out.print("getMessage1");
     return "Hello Docker Container";
 
   }
