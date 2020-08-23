@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringTransactionApplication {
 
   public static void main(String[] args) {
+    if(){
+    System.out.pritn("dfhkdhf344k");
+    }else{
 System.out.pritn("dfhkdhfk");
+    }
     SpringApplication.run(SpringTransactionApplication.class, args);
  
  }
