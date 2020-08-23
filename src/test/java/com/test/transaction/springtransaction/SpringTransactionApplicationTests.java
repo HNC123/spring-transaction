@@ -8,6 +8,7 @@ class SpringTransactionApplicationTests {
 
   @Test
   void contextLoads() {
+    System.out.print("check");
   }
 
 }
