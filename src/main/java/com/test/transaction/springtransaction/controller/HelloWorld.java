@@ -11,6 +11,7 @@ public class HelloWorld {
   public String getMessage(){
     System.out.print("getMessage1");
     System.out.print("getMessage2")
+System.out.print("getMessage4");
 System.out.print("getMessage2");
     return "Hello Docker Container";
 
